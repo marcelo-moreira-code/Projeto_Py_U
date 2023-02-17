@@ -3,7 +3,7 @@ sobrenome = 'Beatriz'
 idade = 25
 ano_nascimento = 1998
 maior_de_idade = (2023-(ano_nascimento)) >= 18
-altura_metros = 1.66 
+altura_metros = 1.65
 idade = 2023 - ano_nascimento
 
 
