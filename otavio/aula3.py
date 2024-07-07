@@ -15,3 +15,5 @@ print(r'Ana \'Beatriz\'')
 # r -> é usada para expressões regulares 
 
 print(1,'Ana "Beatriz"')
+
+print(input("Escreva algo: "))
