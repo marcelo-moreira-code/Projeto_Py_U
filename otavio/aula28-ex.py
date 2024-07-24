@@ -24,7 +24,10 @@ if nome and idade:
     print(f"O seu é {nome}")
     print(f"Seu nome invertido fica {nome[::-1]}")
     print(f"Seu nome possue {len(nome)} letras")
-    print(f"Seu nome contém {nome.count(" ")} espaços")
+    if nome.count(" ") == 0:
+        print("Seu nome não contém espaços")
+    else:    
+        print(f"Seu nome contém {nome.count(" ")} espaços")
     print(f"A primeira letra do seu nome é {nome[0]}")
     print(f"A última letra do seu nome é {nome[-1]}") 
 else:
